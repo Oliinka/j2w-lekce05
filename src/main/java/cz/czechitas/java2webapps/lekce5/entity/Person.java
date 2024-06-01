@@ -1,14 +1,16 @@
 package cz.czechitas.java2webapps.lekce5.entity;
-
 import org.springframework.format.annotation.DateTimeFormat;
-
 import java.time.LocalDate;
+
 
 /**
  * Entita reprezentující osobu.
  */
 public class Person {
+
     private String givenName;
+
+
     private String lastName;
     private LocalDate birthDate;
 
